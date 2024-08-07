@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio | Gede</title>
+    <link rel="shortcut icon" href="logo.png" />
+    <!---external css ---->
+    <link rel="stylesheet" href="style.css" />
+    <!---font awesome cdn for font icons---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-card">
+        <div class="profile-pic">
+          <img src="foto.webp" alt="user avatar" />
+        </div>
+
+        <div class="profile-details">
+          <div class="intro">
+            <h2>I Gede Suadnyana</h2>
+            <div class="hero-text">
+              <h4>Hi I'm <span class="input">Administration</span></h4>
+            </div>
+            <div class="social">
+              <a href="https://wa.me/6281278074086"><i class="fab fa-whatsapp" style="color: var(--light-green)"></i></a>
+              <a href="https://www.instagram.com/igedesuadnyana"><i class="fab fa-instagram" style="color: var(--dark-pink)"></i></a>
+              <a href="https://github.com/igedesuadnyana"><i class="fab fa-github" style="color: var(--light-purple)"></i></a>
+              <a href="https://www.linkedin.com/in/i-gede-suadnyana"><i class="fab fa-linkedin" style="color: var(--light-blue)"></i></a>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <div class="row">
+              <div class="icon">
+                <i class="fa fa-phone" style="color: var(--dark-magenta)"></i>
+              </div>
+              <div class="content">
+                <span>Phone</span>
+                <h5>+62 812 7807 4086</h5>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="icon">
+                <i class="fa fa-envelope-open" style="color: var(--light-green)"></i>
+              </div>
+              <div class="content">
+                <span>Email</span>
+                <h5>igede.suadnyana@gmail</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="icon">
+                <i class="fa fa-map-marker" style="color: var(--light-purple)"></i>
+              </div>
+              <div class="content">
+                <span>Location</span>
+                <h5>Palembang Indonesia</h5>
+              </div>
+            </div>
+          </div>
+          <button class="download-btn" onclick="window.location.href='CV.pdf'"><i class="fa fa-download"></i> Download CV</button>
+        </div>
+      </div>
+
+      <!----about section ----->
+      <div class="about">
+        <h1>About Me</h1>
+
+        <p>
+          I have experience as an administrative staff and IT Support in healthcare. Now, I want to return to Web Development and Graphic Design through external courses and further education. My ultimate goal is to become an educator to
+          share knowledge with the community
+        </p>
+        <h2>What I Do !!!</h2>
+        <div class="work">
+          <div class="workbox">
+            <div class="icon">
+              <img src="adm.svg" alt="" />
+            </div>
+            <div class="desc">
+              <h3>Administration</h3>
+              <p>Skilled in using Excel and spreadsheets for data analysis, reporting, and task management</p>
+            </div>
+          </div>
+
+          <div class="workbox">
+            <div class="icon">
+              <img src="design.svg" alt="" />
+            </div>
+            <div class="desc">
+              <h3>Design Graphic</h3>
+              <p>Skilled in graphic design using Adobe Photoshop and Illustrator for creating professional visuals.</p>
+            </div>
+          </div>
+
+          <div class="workbox">
+            <div class="icon">
+              <img src="sosmed.svg" alt="" />
+            </div>
+            <div class="desc">
+              <h3>Sosmed Specialist</h3>
+              <p>Skilled in creating engaging content, analyzing trends, and driving online growth.</p>
+            </div>
+          </div>
+
+          <div class="workbox">
+            <div class="icon">
+              <img src="web.svg" alt="" />
+            </div>
+            <div class="desc">
+              <h3>Web Developer</h3>
+              <p>Skilled in HTML, CSS, and JavaScript for creating dynamic and responsive websites.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+      var typed = new Typed(".input", {
+        strings: ["Administration", "Design Graphic", "Sosial Media Specialist", "Web Developer"],
+        typedSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
